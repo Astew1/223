@@ -12,3 +12,9 @@ Useful standard libraries: stdio.h, stdlib.c, ctype.h, boolean.h?, assert.h
 
 The function puts() is an easier way to output strings (don't have to do printf("\n");
 
+Notes on C:
+  In stdint.h (May be loaded in stdlib.h)
+    int64_t
+    uint8_t
+    ...etc
+

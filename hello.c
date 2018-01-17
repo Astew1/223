@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <assert.h>
 
-int main(void){
-    assert(2+2 == 4);
-    printf("Hello, world!\n");
-    return 0;
+int main(int argc, char **argv){
+
+   char c = 0;  //This does show that chars are signed implicitly on this mac
+   c = c - 1;
+   printf("%d", c);
+   printf("Hello, world!\n");
+   return 0;
 }

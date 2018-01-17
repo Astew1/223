@@ -1,3 +1,14 @@
 Day One Notes
 
 First assignment available on website.
+
+9 Programming assignments
+    General format is (bytes)->[Program]->(bytes)
+      Grading program looks for correct (bytes)->(bytes)
+      Should test code on Zoo so that it compiles & runs (correctly)
+The <assert.h> library includes a function assert(expression) that will halt
+  the program if expression is false
+Useful standard libraries: stdio.h, stdlib.c, ctype.h, boolean.h?, assert.h
+
+The function puts() is an easier way to output strings (don't have to do printf("\n");
+
